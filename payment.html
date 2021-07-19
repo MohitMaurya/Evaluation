@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Adress Details</h1>
+    <input type="text" id="card" placeholder="Card No.">
+    <input type="text" id="expiry" placeholder="Expiry Date">
+    <input type="text" id="cvv" placeholder="CVV">
+    <input type="text" id="name" placeholder="Cardholder Name">
+    <button onclick="displayMessage()">Payment</button>
+
+</html>
+
+<script>
+    function displayMessage() {
+        setTimeout(function () {
+            alert('Your order is successfully placed');
+        }, 3000);
+    }
+</script>
